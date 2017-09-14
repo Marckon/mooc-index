@@ -1,0 +1,377 @@
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.top {
+    font: 9pt/1em normal, "Microsoft YaHei UI";
+    height: 27px;
+    border-bottom: #ccc 2px solid;
+}
+
+.top ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top ul li {
+    padding-left:10px ;
+    list-style: none;
+    background: url("../images/li_bg.gif") no-repeat left center;
+    width:50px;
+    float: right;
+    line-height: 27px;
+    margin-right: 20px;
+    color: #8E8E8E;
+    cursor: pointer;
+}
+
+.logo-container {
+    font: 9pt/1em normal, "Microsoft YaHei UI";
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 0
+}
+
+.phonenumber {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: #8E8E8E;
+}
+
+.phonenumber img {
+    height: 100%;
+    vertical-align: middle;
+
+}
+
+.phonenumber span {
+    color: #00CC00;
+    margin-left: 5px;
+    font-size: 12pt;
+}
+
+.nav {
+    font: 9pt/1em normal, "Microsoft YaHei UI";
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+    background: url("../images/nav_bg.jpg") repeat-x;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    margin: 0 30px;
+    color: #ffffff;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+.search-form {
+    float: left;
+    margin-left: 30px;
+    padding-top: 8px;
+    height: 40px;
+}
+
+.search-text {
+    width: 150px;
+    height: 20px;
+    outline: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff !important;
+    background: url("../images/search.jpg") no-repeat center right;
+    padding-right: 25px;
+}
+
+.scroll-pics {
+    width: 1000px;
+    height: 243px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.loading {
+    color: #8E8E8E;
+    vertical-align: middle;
+}
+
+.information {
+    width: 1000px;
+    height: 250px;
+    margin: 5px auto;
+}
+
+.news {
+    width: 340px;
+    height: 250px;
+    float: left;
+    background-color: white;
+}
+
+.course {
+    width: 410px;
+    height: 250px;
+    float: left;
+    margin: 0 10px;
+    background-color: #ffffff;
+}
+
+.media {
+    width: 230px;
+    height: 250px;
+    float: left;
+}
+
+.title {
+    height: 25px;
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #8E8E8E;
+    border-bottom: #cccccc solid 1px;
+}
+
+.title-left {
+    float: left;
+}
+
+.title-right {
+    float: right;
+}
+
+.title-right a {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+.title-right a:hover, .title-right a:active {
+    color: blue;
+}
+
+.content {
+    font: 10pt/1.2em normal, "sans-serif";
+    margin-top: 5px;
+}
+
+.top-news {
+    height: 88px;
+    margin-bottom: 10px;
+}
+
+#news-pic, #course-pic {
+    float: left;
+    margin-right: 10px;
+}
+
+.top-news-text span {
+    display: block;
+    margin-top: 20px;
+}
+
+.top-news-text span a {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+.top-news-text span a:hover {
+    color: red;
+}
+
+.news-list {
+    list-style-position: inside;
+    list-style-image: url("../images/list.jpg");
+}
+
+.news-list li {
+    margin-bottom: 5px;
+    border-bottom: dotted #cccccc 1px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.news-list li:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+.date {
+    float: right;
+    color: #8E8E8E;
+}
+
+.course-list {
+    /*border:solid black 1pc;*/
+}
+
+.course-list ul {
+    margin: 50px auto;
+    text-indent: 12px;
+    /*border:1px solid red;*/
+}
+
+.course-list li {
+    list-style: none;
+    margin-left: 20px;
+    display: inline-block;
+    display: inline;
+    text-align: center;
+    cursor: pointer;
+    color:#8E8E8E;
+}
+
+.course-list li:hover {
+    color: red;
+    transition-duration: 0.3s;
+}
+
+.media embed {
+    height: 80%;
+}
+
+#copyright {
+    clear: both;
+    font-family: "Microsoft YaHei UI";
+    background: #cccccc;
+    height: 200px;
+    text-align: center;
+    color:#8E8E8E;
+}
+.dl-wrapper{
+    margin:0px auto;
+    height:100%;
+    width: 800px;
+}
+#copyright dl{
+    height:100%;
+    float: left;
+    margin-right: 50px;
+}
+#copyright  dt{
+    font-size: 14pt;
+    text-indent: -50px;
+}
+#copyright  dd{
+    background: url("../images/line.png") no-repeat right;
+    padding-right: 50px;
+    line-height:40px ;
+    font-size: 9pt;
+    cursor: pointer;
+}
+#copyright  dd:hover{
+    color:black;
+    transition-duration: 0.5s;
+}
+
+.QR-code div{
+    float: right;
+    margin: 10px;
+    margin-right: 50px;
+}
+.newslist-content{
+    width: 1000px;
+    margin:0 auto;
+}
+.news-type{
+    _height:350px;
+    min-height: 350px;
+    width: 220px;
+    float: left;
+    margin-bottom: 10px;
+
+}
+/*.news-type dt{*/
+    /*color:#E92B00;*/
+    /*font-family: "Microsoft YaHei UI";*/
+    /*font-size: 12pt;*/
+/*}*/
+.news-type dd{
+    color:#8E8E8E;
+    margin: 20px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 11pt;
+    padding-left:10px;
+    cursor: pointer;
+}
+.news-type dd:hover{
+    color:black;
+    background: url("../images/li_bg.gif") no-repeat center left;
+    transition-duration: 0.3s;
+}
+.news-titles{
+    _height:350px;
+    min-height: 350px;
+    width: 770px;
+    float: right;
+    margin-bottom: 10px;
+}
+.news-titles li{
+    list-style: none;
+    margin-top: 20px;
+    border-bottom: dotted #cccccc 1px;
+    cursor: pointer;
+    font-size: 9pt;
+}
+.news-titles li:hover{
+    color:#196BA9;
+}
+.news-titles span{
+    float: right;
+    color:#8E8E8E;
+}
+.page-nav ul{
+    width:500px;
+    margin: 0 auto;
+}
+.page-nav li{
+    padding: 5px;
+    float: left;
+    list-style: none;
+    margin:10px;
+    border:solid 1px #cccccc;
+    box-shadow:  0 0 5px 0 #8E8E8E;
+    font-size: 8pt;
+}
+.page-nav li:hover{
+    background: #DADADA;
+}
+.newsContent{
+    width:770px;
+    margin:0 auto;
+    float: right;
+    line-height: 25px;
+    text-indent: 2em;
+    margin-bottom: 50px;
+}
+.news-title{
+    margin:10px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.news-info{
+    text-align: center;
+    color: #666666;
+    font-size: 9pt;
+}
+.news-pic{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

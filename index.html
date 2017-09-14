@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="myfocus/js/myfocus-2.0.1.min.js"></script>
+    <script src="myfocus/js/mf-pattern/mF_liquid.js"></script>
+    <link rel="stylesheet" href="myfocus/js/mf-pattern/mF_liquid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        $(window).ready(function () {
+            myFocus.set({
+                'id': 'picBox',
+                'txtHeight': '0'
+            })
+        })
+
+    </script>
+</head>
+<body>
+<div class="top">
+    <ul>
+        <li>设为首页</li>
+        <li>加入收藏</li>
+        <li>联系我们</li>
+    </ul>
+</div>
+<div class="logo-container">
+    <div class="logo"><img src="images/logo.jpg" alt="慕课网"></div>
+    <div class="phonenumber"><img src="images/tel.jpg" alt="联系方式">24小时服务热线<span>123-456-7890</span></div>
+</div>
+<div class="nav">
+    <ul>
+        <li>首页</li>
+        <li>关于慕课</li>
+        <li>新闻动态</li>
+        <li>课程中心</li>
+        <li>在线课程</li>
+        <li>人才招聘</li>
+    </ul>
+    <form class="search-form">
+        <input type="text" class="search-text">
+    </form>
+</div>
+<div class="scroll-pics" id="picBox">
+    <div class="loading"><img src="images/loading.gif" alt="图片加载中"></div>
+    <div class="pic">
+        <ul>
+            <li><img src="images/ad.jpg"></li>
+            <li><img src="images/ad2.jpg"></li>
+            <li><img src="images/ad3.jpg"></li>
+            <li><img src="images/ad4.jpg"></li>
+        </ul>
+    </div>
+</div>
+<div class="information">
+    <div class="news">
+        <div class="title">
+            <div class="title-left">新闻中心</div>
+            <div class="title-right"><a href="newslist.html">learn more &gt;&gt;</a></div>
+        </div>
+        <div class="content">
+            <div class="top-news">
+                <img src="images/news.jpg" id="news-pic">
+                <div class="top-news-text">
+                    <h4>520 来表白</h4>
+                    <p>活动时间：5.20-5.26<br>获奖公布时间：5.26</p>
+                    <span><a href="news.html">learn more&gt;&gt;</a></span>
+                </div>
+            </div>
+            <div class="news-list">
+                <ul>
+                    <li>
+                        <div class="date">2017-07-27</div>
+                        这里是新闻一
+
+                    </li>
+                    <li>
+                        <div class="date">2017-07-25</div>  
+                        这里是新闻二比新闻一多几个字
+
+                    </li>
+                    <li>
+                        <div class="date">2017-04-25</div>
+                        这里是新闻三比新闻二少
+
+                    </li>
+                    <li>
+                        <div class="date">2017-06-27</div>
+                        这里是新闻四比上述新闻名字都长
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="course">
+        <div class="title">
+            <div class="title-left">课程中心</div>
+            <div class="title-right"><a href="news.html">learn more &gt;&gt;</a></div>
+        </div>
+        <div class="content">
+            <div class="top-news">
+                <img src="images/css.jpg" id="course-pic">
+                <div class="top-news-text">
+                    <h4>CSS圆角实现</h4>
+                    <p>css圆角实现经历了三个阶段的发展，本节课针对不同阶段的发展给出相关的介绍并配以相应的课后习题。如果同学有不理解的可以在慕课网这一平台提问</p>
+                </div>
+            </div>
+            <div class="course-list">
+                <ul>
+                    <li>PHP开发</li>
+                    <li>前端开发</li>
+                    <li>JAVA开发</li>
+                    <li>安卓开发</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="media">
+        <div class="title">
+            <div class="title-left">媒体聚焦</div>
+            <div class="title-right"><a href="news.html">learn more &gt;&gt;</a></div>
+        </div>
+        <embed src='http://player.youku.com/player.php/sid/XMjgzNjk4NzU3Mg==/v.swf' allowFullScreen='true'
+               quality='high' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+    </div>
+</div>
+<div id="copyright">
+    <div class="dl-wrapper">
+        <dl>
+            <dt>关于</dt>
+            <dd>品牌故事</dd>
+            <dd>联系我们</dd>
+            <dd>加入我们</dd>
+            <dd>版权声明</dd>
+        </dl>
+        <dl>
+            <dt>课程</dt>
+            <dd>PHP开发</dd>
+            <dd>前端开发</dd>
+            <dd>JAVA开发</dd>
+            <dd>Android开发</dd>
+        </dl>
+        <dl>
+            <dt>关注</dt>
+            <dd>新浪微博</dd>
+            <dd>企业微信</dd>
+            <dd>腾讯微博</dd>
+            <dd>qq空间</dd>
+        </dl>
+        <dl>
+            <dt>留言</dt>
+            <dd>意见反馈</dd>
+            <dd>问题留言</dd>
+            <dd>媒体联系</dd>
+            <dd>在线客服</dd>
+        </dl>
+        <div class="QR-code">
+            <div><img src="images/weixin.png"><span>微信关注</span></div>
+            <img src="images/qrcode.jpg">
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
